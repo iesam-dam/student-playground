@@ -13,6 +13,6 @@ class StudentDataRepository(
 ) : StudentRepository {
 
     override fun save(student: Student) {
-        //memLocalDataSource.save(student)
+        memLocalDataSource.save(student)
     }
 }
